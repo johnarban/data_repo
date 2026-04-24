@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Folder Browseable="True" Group="Explorer" Name="Infrared (JWST)" Searchable="True">
+  <Place Angle="0" AngularSize="0" Constellation="PSC" DataSetType="Sky" Dec="15.780596436328661" Magnitude="0" Name="Infrared (JWST)" Opacity="100" RA="1.6116245030743692" Rotation="0" Thumbnail="thumb.jpg" ZoomLevel="0.3494289262760134">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.07173808502879782" BaseTileLevel="0" BottomsUp="False" CenterX="24.174371502246" CenterY="15.780613507832" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Infrared (JWST)" OffsetX="-1.4824737404507472e-05" OffsetY="-9.282069898191807e-06" Projection="Tan" QuadTreeMap="" Rotation="70.51999999999902" Sparse="True" StockSet="False" TileLevels="4" Url="{1}/{3}/{3}_{2}.png" WidthFactor="2">
+        <ThumbnailUrl>thumb.jpg</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>
