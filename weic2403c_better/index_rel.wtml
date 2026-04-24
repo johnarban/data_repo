@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Folder Browseable="True"
+  Group="Explorer"
+  Name="Better IR JWST"
+  Searchable="True">
+  <Place Angle="0"
+    AngularSize="0"
+    Constellation="PSC"
+    DataSetType="Sky"
+    Dec="15.780624690000144"
+    Magnitude="0"
+    Name="Better IR JWST"
+    Opacity="100"
+    RA="1.6116251366495928"
+    Rotation="0"
+    Thumbnail="thumb.jpg"
+    ZoomLevel="0.34961828050193644">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible"
+        BaseDegreesPerTile="0.07177695962828962"
+        BaseTileLevel="0"
+        BottomsUp="False"
+        CenterX="24.174371502246"
+        CenterY="15.780613507832"
+        DataSetType="Sky"
+        ElevationModel="False"
+        FileType=".png"
+        Generic="False"
+        Name="Better IR JWST"
+        OffsetX="8.761835892124726e-06"
+        OffsetY="8.761835892125197e-06"
+        Projection="Tan"
+        QuadTreeMap=""
+        Rotation="70.51999999999937"
+        Sparse="True"
+        StockSet="False"
+        TileLevels="4"
+        Url="{1}/{3}/{3}_{2}.png"
+        WidthFactor="2">
+        <Credits>NASA, ESA, CSA, STScI, J. Lee (STScI), T. Williams (Oxford), PHANGS Team</Credits>
+        <CreditsUrl>https://esawebb.org/images/weic2403c/</CreditsUrl>
+        <Description>This spiral galaxy was observed as part of the Physics at High Angular resolution in Nearby GalaxieS (PHANGS) program, a large project that includes observations from several space- and ground-based telescopes of many galaxies to help researchers study all phases of the star formation cycle, from the formation of stars within dusty gas clouds to the energy released in the process that creates the intricate structures revealed by Webb’s new images. NGC 628 is 32 million light-years away in the constellation Pisces. Learn more about what can be seen in this vast collection of Webb images here. [Image description: Webb’s image of NGC 628 shows a densely populated face-on spiral galaxy anchored by a central region that has a light blue haze. Spine-like f spiral orange arms extend to the edges and rotate counterclockwise.]</Description>
+        <ThumbnailUrl>thumb.jpg</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>

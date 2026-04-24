@@ -58,7 +58,7 @@ hubble_has_avm = {
 }
 
 
-image_def = hubble_has_avm
+image_def = weic2403c
 
 image_name = image_def["image_name"]
 image_base = os.path.splitext(image_name)[0]
