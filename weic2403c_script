@@ -1,0 +1,5 @@
+rm -rf weic2403c; 
+python wwt_url_to_fits_header.py "http://www.worldwidetelescope.org/wwtweb/ShowImage.aspx?ra=24.17437150224632&dec=15.780613507831623&x=640.0&y=400.7170294494238&scale=0.1539673612143702&rotation=250.5199999999998&name=NGC+628&imageurl=http%3A%2F%2Fesawebb.org%2Fmedia%2Farchives%2Fimages%2Fscreen%2Fweic2403c.jpg&thumb=http%3A%2F%2Fesawebb.org%2Fmedia%2Farchives%2Fimages%2Fthumbs%2Fweic2403c.jpg&credits=&creditsUrl=http%3A%2F%2Fesawebb.org%2Fimages%2Fweic2403c%2F" weic2403c.tif --scale 2.44194756554; 
+toasty tile-study --outdir weic2403c --name "Infrared (JWST)" --fits-wcs weic2403c.wcs weic2403c.tif; 
+toasty cascade --start 4 weic2403c
+> wwtdatatool wtml rewrite-urls weic2403c/index_rel.wtml https://raw.githubusercontent.com/johnarban/data_repo/main/weic2403c/ weic2403c/index.wtml
