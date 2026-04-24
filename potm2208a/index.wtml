@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Folder Browseable="True" Group="Explorer" Name="Mid-infrared (JWST)" Searchable="True">
+  <Place Angle="0" AngularSize="0" Constellation="PSC" DataSetType="Sky" Dec="15.782706679434895" Magnitude="0" Name="Mid-infrared (JWST)" Opacity="100" RA="1.6115660524134972" Rotation="0" Thumbnail="https://raw.githubusercontent.com/johnarban/data_repo/main/potm2208ac/thumb.jpg" ZoomLevel="0.3556733510927583">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.06319790239788035" BaseTileLevel="0" BottomsUp="False" CenterX="24.173488522348" CenterY="15.782739448057" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Mid-infrared (JWST)" OffsetX="4.6953880130028105e-05" OffsetY="9.204427209310495e-06" Projection="Tan" QuadTreeMap="" Rotation="-110.08000000000004" Sparse="True" StockSet="False" TileLevels="3" Url="https://raw.githubusercontent.com/johnarban/data_repo/main/potm2208ac/{1}/{3}/{3}_{2}.png" WidthFactor="2">
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/data_repo/main/potm2208ac/thumb.jpg</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>
