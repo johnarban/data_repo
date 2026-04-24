@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Folder Browseable="True" Group="Explorer" Name="Optical (Hubble)" Searchable="True">
+  <Place Angle="0" AngularSize="0" Constellation="PSC" DataSetType="Sky" Dec="15.780799801122493" Magnitude="0" Name="Optical (Hubble)" Opacity="100" RA="1.611621883017132" Rotation="0" Thumbnail="https://raw.githubusercontent.com/johnarban/data_repo/main/thumb.jpg" ZoomLevel="0.3488489402080298">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0716190133471716" BaseTileLevel="0" BottomsUp="False" CenterX="24.17164113282" CenterY="15.78810718812" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Optical (Hubble)" OffsetX="-0.00775139865252075" OffsetY="3.938659734189573e-06" Projection="Tan" QuadTreeMap="" Rotation="70.5419521644074" Sparse="True" StockSet="False" TileLevels="4" Url="https://raw.githubusercontent.com/johnarban/data_repo/main/{1}/{3}/{3}_{2}.png" WidthFactor="2">
+        <Credits>NASA, ESA, and the Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration</Credits>
+        <CreditsUrl>https://webbtelescope.org/contents/news-releases/2024/news-2024-105</CreditsUrl>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/data_repo/main/thumb.jpg</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>
