@@ -44,8 +44,10 @@ def wwt_url_to_fits_header(wwt_url, scale_factor=1.0, height = None):
     imageset.base_degrees_per_tile = scale_deg # for an image it is just the degrees per pixel
     imageset.rotation_deg = float(query_params['rotation'][0]) - 180
     imageset.base_tile_level = 0 # for an image it is just one tile
-    imageset.offset_x = float(query_params['x'][0]) * scale_factor
-    imageset.offset_y = float(query_params['y'][0]) * scale_factor
+    # Match AVM/toasty's tiled-study pixel convention: the URL pixel coordinates
+    # describe image pixel centers, while WWT ImageSet offsets describe corners.
+    imageset.offset_x = float(query_params['x'][0]) * scale_factor - 0.5
+    imageset.offset_y = float(query_params['y'][0]) * scale_factor - 0.5
     imageset.projection = ProjectionType.SKY_IMAGE
     
     wcs_headers_as_dict = imageset.wcs_headers_from_position(height=height)
@@ -83,9 +85,9 @@ def write_header_for_image(wwt_url, image_path):
     print(f"output size: {output_size[0]}x{output_size[1]}")
     print(f"scale_x: {scale_x}")
     print(f"scale_y: {scale_y}")
-    print(f"using scale_y: {scale_y}")
+    print(f"using scale_x: {scale_x}")
 
-    header = wwt_url_to_fits_header(wwt_url, scale_factor=scale_y, height=output_size[1])
+    header = wwt_url_to_fits_header(wwt_url, scale_factor=scale_x, height=output_size[1])
     hdu = fits.PrimaryHDU(data=None, header=header)
     hdu.writeto(out, overwrite=True)
     

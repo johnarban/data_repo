@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Folder Browseable="True" Group="Explorer" Name="Folder" Searchable="True">
+  <Place Angle="0" AngularSize="0" Constellation="PSC" DataSetType="Sky" Dec="15.782705186226885" Magnitude="0" Name="Mid-Infrared (JWST)" Opacity="100" RA="1.6115656316788582" Rotation="0" Thumbnail="https://raw.githubusercontent.com/johnarban/data_repo/main/potm2208a/thumb.jpg" ZoomLevel="0.3554855807776947">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.06316453838562544" BaseTileLevel="0" BottomsUp="False" CenterX="24.173488522348" CenterY="15.782739448057" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Mid-Infrared (JWST)" OffsetX="4.626308963790926e-05" OffsetY="1.5421029879303086e-05" Projection="Tan" QuadTreeMap="" Rotation="-110.07999999999933" Sparse="True" StockSet="False" TileLevels="3" Url="https://raw.githubusercontent.com/johnarban/data_repo/main/potm2208a/{1}/{3}/{3}_{2}.png" WidthFactor="2">
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/data_repo/main/potm2208a/thumb.jpg</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" Constellation="PSC" DataSetType="Sky" Dec="15.785020499799176" Magnitude="0" Name="Optical (NOAO)" Opacity="100" RA="1.6112476836901979" Rotation="0" Thumbnail="https://raw.githubusercontent.com/johnarban/data_repo/main/noao_ngc628/thumb.jpg" ZoomLevel="1.3459097832539282">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.2167101621227452" BaseTileLevel="0" BottomsUp="False" CenterX="24.1712825361" CenterY="15.7868634046" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Optical (NOAO)" OffsetX="0.0022327248360550704" OffsetY="-0.00217761635924773" Projection="Tan" QuadTreeMap="" Rotation="6.858214625903561" Sparse="True" StockSet="False" TileLevels="3" Url="https://raw.githubusercontent.com/johnarban/data_repo/main/noao_ngc628/{1}/{3}/{3}_{2}.png" WidthFactor="2">
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/data_repo/main/noao_ngc628/thumb.jpg</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" Constellation="PSC" DataSetType="Sky" Dec="15.780624690000144" Magnitude="0" Name="Infrared (JWST)" Opacity="100" RA="1.6116251366495928" Rotation="0" Thumbnail="https://raw.githubusercontent.com/johnarban/data_repo/main/weic2403c/thumb.jpg" ZoomLevel="0.34961828050193716">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.07177695962828975" BaseTileLevel="0" BottomsUp="False" CenterX="24.174371502246" CenterY="15.780613507832" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Infrared (JWST)" OffsetX="8.761835892124743e-06" OffsetY="8.761835892125214e-06" Projection="Tan" QuadTreeMap="" Rotation="70.51999999999907" Sparse="True" StockSet="False" TileLevels="4" Url="https://raw.githubusercontent.com/johnarban/data_repo/main/weic2403c/{1}/{3}/{3}_{2}.png" WidthFactor="2">
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/data_repo/main/weic2403c/thumb.jpg</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" Constellation="PSC" DataSetType="Sky" Dec="15.780799801122493" Magnitude="0" Name="Optical (Hubble)" Opacity="100" RA="1.611621883017132" Rotation="0" Thumbnail="https://raw.githubusercontent.com/johnarban/data_repo/main/hubble_ngc628/thumb.jpg" ZoomLevel="0.3488489402080298">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0716190133471716" BaseTileLevel="0" BottomsUp="False" CenterX="24.17164113282" CenterY="15.78810718812" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Optical (Hubble)" OffsetX="-0.00775139865252075" OffsetY="3.938659734189573e-06" Projection="Tan" QuadTreeMap="" Rotation="70.5419521644074" Sparse="True" StockSet="False" TileLevels="4" Url="https://raw.githubusercontent.com/johnarban/data_repo/main/hubble_ngc628/{1}/{3}/{3}_{2}.png" WidthFactor="2">
+        <Credits>NASA, ESA, and the Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration</Credits>
+        <CreditsUrl>https://webbtelescope.org/contents/news-releases/2024/news-2024-105</CreditsUrl>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/data_repo/main/hubble_ngc628/thumb.jpg</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>

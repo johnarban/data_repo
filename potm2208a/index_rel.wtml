@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Folder Browseable="True" Group="Explorer" Name="Mid-Infrared (JWST)" Searchable="True">
-  <Place Angle="0" AngularSize="0" Constellation="PSC" DataSetType="Sky" Dec="15.782706679434895" Magnitude="0" Name="Mid-Infrared (JWST)" Opacity="100" RA="1.6115660524134972" Rotation="0" Thumbnail="thumb.jpg" ZoomLevel="0.3556733510927583">
+  <Place Angle="0" AngularSize="0" Constellation="PSC" DataSetType="Sky" Dec="15.782705186226885" Magnitude="0" Name="Mid-Infrared (JWST)" Opacity="100" RA="1.6115656316788582" Rotation="0" Thumbnail="thumb.jpg" ZoomLevel="0.3554855807776947">
     <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.06319790239788035" BaseTileLevel="0" BottomsUp="False" CenterX="24.173488522348" CenterY="15.782739448057" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Mid-Infrared (JWST)" OffsetX="4.6953880130028105e-05" OffsetY="9.204427209310495e-06" Projection="Tan" QuadTreeMap="" Rotation="-110.08000000000004" Sparse="True" StockSet="False" TileLevels="3" Url="{1}/{3}/{3}_{2}.png" WidthFactor="2">
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.06316453838562544" BaseTileLevel="0" BottomsUp="False" CenterX="24.173488522348" CenterY="15.782739448057" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Mid-Infrared (JWST)" OffsetX="4.626308963790926e-05" OffsetY="1.5421029879303086e-05" Projection="Tan" QuadTreeMap="" Rotation="-110.07999999999933" Sparse="True" StockSet="False" TileLevels="3" Url="{1}/{3}/{3}_{2}.png" WidthFactor="2">
         <ThumbnailUrl>thumb.jpg</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>

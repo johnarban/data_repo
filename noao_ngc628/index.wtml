@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Folder Browseable="True" Group="Explorer" Name="Optical (NOAO)" Searchable="True">
-  <Place Angle="0" AngularSize="0" Constellation="PSC" DataSetType="Sky" Dec="15.784982844796499" Magnitude="0" Name="Optical (NOAO)" Opacity="100" RA="1.611249229936465" Rotation="0" Thumbnail="https://raw.githubusercontent.com/johnarban/data_repo/main/noao_ngc628/thumb.jpg" ZoomLevel="1.3462807988818555">
+  <Place Angle="0" AngularSize="0" Constellation="PSC" DataSetType="Sky" Dec="15.785020499799176" Magnitude="0" Name="Optical (NOAO)" Opacity="100" RA="1.6112476836901979" Rotation="0" Thumbnail="https://raw.githubusercontent.com/johnarban/data_repo/main/noao_ngc628/thumb.jpg" ZoomLevel="1.3459097832539282">
     <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.21676990079013475" BaseTileLevel="0" BottomsUp="False" CenterX="24.1712825361" CenterY="15.7868634046" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Optical (NOAO)" OffsetX="0.002206069425696395" OffsetY="-0.0022123516577247067" Projection="Tan" QuadTreeMap="" Rotation="6.85821462590335" Sparse="True" StockSet="False" TileLevels="3" Url="https://raw.githubusercontent.com/johnarban/data_repo/main/noao_ngc628/{1}/{3}/{3}_{2}.png" WidthFactor="2">
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.2167101621227452" BaseTileLevel="0" BottomsUp="False" CenterX="24.1712825361" CenterY="15.7868634046" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Optical (NOAO)" OffsetX="0.0022327248360550704" OffsetY="-0.00217761635924773" Projection="Tan" QuadTreeMap="" Rotation="6.858214625903561" Sparse="True" StockSet="False" TileLevels="3" Url="https://raw.githubusercontent.com/johnarban/data_repo/main/noao_ngc628/{1}/{3}/{3}_{2}.png" WidthFactor="2">
         <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/data_repo/main/noao_ngc628/thumb.jpg</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
