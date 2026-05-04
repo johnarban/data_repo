@@ -60,82 +60,131 @@ hubble_has_avm = {
    "outdir": "hubble_ngc628"
 }
 
-
-image_def = potm2208a
-
-for image_def in [potm2208a, weic2403c, noao_m74mortfieldw, hubble_has_avm]:
-
-    image_name = image_def["image_name"]
-    image_base = os.path.splitext(image_name)[0]
-    wcs_path = image_base + ".wcs"
-    outdir = image_def.get("outdir", image_base)
-    layer_name = image_def["name"]
-    url = image_def["url"]
+spitzer_has_avm = {
+    "image_name": "ssc2023-01b.tif",
+    "url": None,
+    "name": "Infrared (Spitzer)",
+    "outdir": "spitzer_ngc628",
+    "avm-source": "spitzer_ssc2023-01b_1600.jpg",
+}
 
 
-    if url is not None:
-        if os.path.isdir(outdir) :
-            print(f"Removing existing output directory: {outdir}")
-            shutil.rmtree(outdir)
+all_sources = [spitzer_has_avm] #[potm2208a, weic2403c, hubble_has_avm, noao_m74mortfieldw]
 
-        run(["python", "wwt_url_to_fits_header.py", url, image_name])
+if True: 
+    for image_def in all_sources:
 
-        tile_output = get_output(
-            [
-                "toasty",
-                "tile-study",
-                "--outdir",
-                outdir,
-                "--name",
-                layer_name,
-                "--fits-wcs",
-                wcs_path,
-                image_name,
-            ]
-        )
-    elif "avm-source" in image_def:
-        # toasty tile-study --outdir noao_ngc628 --name "Optical (NOAO)" --avm noao-m74mortfieldw.jpg
-        tile_output = get_output(
-            [
-                "toasty",
-                "tile-study",
-                "--from-avm",
-                image_def["avm-source"],
-                "--outdir",
-                outdir,
-                "--name",
-                layer_name,
-                image_name,
-            ]
-        )
-    else:
-        # toasty tile-study --outdir hubble_ngc628 --name "Optical (Hubble)" --avm ngc\ 628\ Hubble\ Full\ Res\ \(For\ Display\).png
-        tile_output = get_output(
-            [
-                "toasty",
-                "tile-study",
-                "--outdir",
-                outdir,
-                "--name",
-                layer_name,
-                "--avm",
-                image_name,
-            ]
-        )
+        image_name = image_def["image_name"]
+        image_base = os.path.splitext(image_name)[0]
+        wcs_path = image_base + ".wcs"
+        outdir = image_def.get("outdir", image_base)
+        layer_name = image_def["name"]
+        url = image_def["url"]
 
-    lines = tile_output.strip().splitlines()
-    if not lines:
-        raise RuntimeError("Could not find the suggested toasty cascade command in tile-study output.")
 
-    cascade_command = lines[-1].strip()
-    run(cascade_command)
+        if url is not None:
+            if os.path.isdir(outdir) :
+                print(f"Removing existing output directory: {outdir}")
+                shutil.rmtree(outdir)
 
-    # Add the wwtdatatool command at the end, using the output folder name
-    run([
-        "wwtdatatool",
-        "wtml",
-        "rewrite-urls",
-        f"{outdir}/index_rel.wtml",
-        f"https://raw.githubusercontent.com/johnarban/data_repo/main/{outdir}/",
-        f"{outdir}/index.wtml",
-    ])
+            run(["python", "wwt_url_to_fits_header.py", url, image_name])
+
+            tile_output = get_output(
+                [
+                    "toasty",
+                    "tile-study",
+                    "--outdir",
+                    outdir,
+                    "--name",
+                    layer_name,
+                    "--fits-wcs",
+                    wcs_path,
+                    image_name,
+                ]
+            )
+        elif "avm-source" in image_def:
+            # toasty tile-study --outdir noao_ngc628 --name "Optical (NOAO)" --avm noao-m74mortfieldw.jpg
+            tile_output = get_output(
+                [
+                    "toasty",
+                    "tile-study",
+                    "--avm-from",
+                    image_def["avm-source"],
+                    "--outdir",
+                    outdir,
+                    "--name",
+                    layer_name,
+                    image_name,
+                ]
+            )
+        else:
+            # toasty tile-study --outdir hubble_ngc628 --name "Optical (Hubble)" --avm ngc\ 628\ Hubble\ Full\ Res\ \(For\ Display\).png
+            tile_output = get_output(
+                [
+                    "toasty",
+                    "tile-study",
+                    "--outdir",
+                    outdir,
+                    "--name",
+                    layer_name,
+                    "--avm",
+                    image_name,
+                ]
+            )
+
+        lines = tile_output.strip().splitlines()
+        if not lines:
+            raise RuntimeError("Could not find the suggested toasty cascade command in tile-study output.")
+
+        cascade_command = lines[-1].strip()
+        run(cascade_command)
+
+        # Add the wwtdatatool command at the end, using the output folder name
+        run([
+            "wwtdatatool",
+            "wtml",
+            "rewrite-urls",
+            f"{outdir}/index_rel.wtml",
+            f"https://raw.githubusercontent.com/johnarban/data_repo/main/{outdir}/",
+            f"{outdir}/index.wtml",
+        ])
+
+    # wwtdatatool wtml merge potm2208a/index.wtml noao_ngc628/index.wtml weic2403c/index.wtml hubble_ngc628/index.wtml ngc628_combined.wtml
+    # wtml_list = [j  for v in all_sources for j in [v.get("outdir", os.path.splitext(v["image_name"])[0]) + "/index.wtml"]]
+    wtml_list = [f"{v.get('outdir', os.path.splitext(v['image_name'])[0])}/index.wtml" for v in all_sources]
+
+    # run([
+    #     "wwtdatatool",
+    #     "wtml",
+    #     "merge",
+    #     *wtml_list,
+    #     "ngc628_combined.wtml",
+    # ])
+
+
+# from pyavm import AVM   
+# from string import printable
+# from xml.sax.saxutils import escape
+# # need value xml strings so escape special charachers
+
+# anyascii = lambda s: "".join(filter(lambda x: x in set(printable), s))
+# for source in all_sources:
+#     if "avm-source" in source:
+#         avm_source = source.get("avm-source")
+#     elif "url" in source and source["url"] is None:
+#         avm_source = source["image_name"]
+#     else:
+#         avm_source = None
+#     if avm_source is not None:
+#         avm = AVM.from_image(avm_source)
+#         print('')
+#         print('')
+#         print(f"AVM metadata for {source['name']} ({avm_source}):")
+#         print('')
+#         print(avm.Title)
+#         print('')
+        
+#         print(f"<Description>{escape(avm.Description or '')}</Description>")
+#         print(f"<Credits>{escape(avm.Credit)}</Credits>")
+#         print(f"<CreditsUrl>{escape(avm.ReferenceURL)}</CreditsUrl>")
+#         print('')

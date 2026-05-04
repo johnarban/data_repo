@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Folder Browseable="True" Group="Explorer" Name="Infrared (Spitzer)" Searchable="True">
+  <Place Angle="0" AngularSize="0" Constellation="PSC" DataSetType="Sky" Dec="15.783830080030844" Magnitude="0" Name="Infrared (Spitzer)" Opacity="100" RA="1.6116031114664884" Rotation="0" Thumbnail="https://raw.githubusercontent.com/johnarban/data_repo/main/spitzer_ngc628/thumb.jpg" ZoomLevel="1.9684678833708082">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.21364187732609513" BaseTileLevel="0" BottomsUp="False" CenterX="24.1739767" CenterY="15.7838602" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Infrared (Spitzer)" OffsetX="-5.2158523543506065e-05" OffsetY="-5.2158661456566194e-05" Projection="Tan" QuadTreeMap="" Rotation="-20.90000000000002" Sparse="True" StockSet="False" TileLevels="3" Url="https://raw.githubusercontent.com/johnarban/data_repo/main/spitzer_ngc628/{1}/{3}/{3}_{2}.png" WidthFactor="2">
+        <Credits>NASA/JPL-Caltech</Credits>
+        <CreditsUrl>https://www.spitzer.caltech.edu/image/ssc2023-01b-dusty-forming-stars-in-the-phantom-galaxy-m74</CreditsUrl>
+        <Description>Messier 74, also known as the Phantom Galaxy, is seen here in infrared light which showcases its sweeping spiral arms and star-forming regions.  This image was created using archival data from NASA's Spitzer Space Telescope, revealing dust clouds that, in visible light, appear dark.
+
+Messier 74 is an archetype of the "grand design" spiral galaxy and is nearly face-on to our view, providing a perfect view of its structure. In this infrared image, the light from stars appears blue, as stars are brightest at shorter wavelengths of infrared light and less visible at longer wavelengths.
+
+Filamentary dust clouds are a feature of spiral arms, and help to trace regions where gas reaches higher densities and can lead to the formation of stars. These clouds light up at longer wavelengths of light, appearing as pale yellow filaments. Regions of newly-forming stars show up as bright red dots scattered along the arms, as they glow most brightly at the longest infrared wavelengths in this image.
+
+The galaxy is located in the Pisces constellation and is situated about 30 million light-years away. It has a visible diameter of approximately 10 arc minutes, which is about a third as wide as the full moon. However, its low surface brightness makes it too faint to be seen with the naked eye and makes it a challenging target even for small backyard telescopes.
+
+In this image, infrared light at wavelengths of 3.6, 4.5, and 8.0 microns from Spitzer’s IRAC instrument is displayed as blue, cyan, and green, respectively, while light from Spitzer’s MIPS instrument at 24 microns is shown in red.
+</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/data_repo/main/spitzer_ngc628/thumb.jpg</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>
