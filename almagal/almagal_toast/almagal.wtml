@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Folder Browseable="True"
   Group="Explorer"
-  Name="gal_plane_toast"
+  Name="ALMAGAL Survey"
   Searchable="True">
   <Place Angle="0"
     AngularSize="0"
@@ -9,7 +9,7 @@
     DataSetType="Sky"
     Dec="-61.26318888895745"
     Magnitude="0"
-    Name="gal_plane_toast"
+    Name="ALMAGAL Survey"
     Opacity="100"
     RA="14.059658333345194"
     Rotation="0"
@@ -27,7 +27,7 @@
         ElevationModel="False"
         FileType=".fits"
         Generic="False"
-        Name="gal_plane_toast"
+        Name="ALMAGAL Survey"
         PixelCutHigh="0.0005512956832535588"
         PixelCutLow="-0.0005810955611336976"
         Projection="Toast"
