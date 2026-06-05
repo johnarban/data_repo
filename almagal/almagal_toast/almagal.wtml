@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Folder Browseable="True"
+  Group="Explorer"
+  Name="gal_plane_toast"
+  Searchable="True">
+  <Place Angle="0"
+    AngularSize="0"
+    Constellation="CEN"
+    DataSetType="Sky"
+    Dec="-61.26318888895745"
+    Magnitude="0"
+    Name="gal_plane_toast"
+    Opacity="100"
+    RA="14.059658333345194"
+    Rotation="0"
+    ZoomLevel="0.10143899999999523">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible"
+        BaseDegreesPerTile="180"
+        BaseTileLevel="0"
+        BottomsUp="False"
+        CenterX="210.8948750001"
+        CenterY="-61.26318888892"
+        DataMax="10.641261"
+        DataMin="-0.09023406"
+        DataSetType="Sky"
+        ElevationModel="False"
+        FileType=".fits"
+        Generic="False"
+        Name="gal_plane_toast"
+        PixelCutHigh="0.0005512956832535588"
+        PixelCutLow="-0.0005810955611336976"
+        Projection="Toast"
+        QuadTreeMap=""
+        Rotation="-1.1653552352882175e-11"
+        Sparse="True"
+        StockSet="False"
+        TileLevels="12"
+        Url="https://raw.githubusercontent.com/johnarban/data_repo/refs/heads/main/almagal/almagal_toast/{1}/{3}/{3}_{2}.fits"
+        WidthFactor="2">
+        <ThumbnailUrl />
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>
