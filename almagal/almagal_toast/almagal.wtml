@@ -35,7 +35,7 @@
         Rotation="-1.1653552352882175e-11"
         Sparse="True"
         StockSet="False"
-        TileLevels="12"
+        TileLevels="13"
         Url="https://raw.githubusercontent.com/johnarban/data_repo/refs/heads/main/almagal/almagal_toast/{1}/{3}/{3}_{2}.fits"
         WidthFactor="2">
         <ThumbnailUrl />
