@@ -68,8 +68,31 @@ spitzer_has_avm = {
     "avm-source": "spitzer_ssc2023-01b_1600.jpg",
 }
 
+carina = {
+    "image_name": "eso1207a.tif",
+    "url": None,
+    # "url": "http://www.worldwidetelescope.org/wwtweb/ShowImage.aspx?scale=1.238811912&name=NGC+3324&imageurl=https%3A%2F%2Fwww.eso.org%2Fpublic%2Farchives%2Fimages%2Fscreen%2Feso1207a.jpg&credits=&creditsUrl=https%3A%2F%2Fwww.eso.org%2Fpublic%2Fimages%2Feso1207a%2F&ra=159.320327&y=740.522046813&x=898.946195033&rotation=180.092778992&dec=-58.629867&thumb=https%3A%2F%2Fwww.eso.org%2Fpublic%2Farchives%2Fimages%2Fthumbs%2Feso1207a.jpg",
+    "name": "NGC 3324",
+    "outdir": "eso1207a",
+    "avm-source": "eso1207a.jpg",
+    
+}
 
-all_sources = [spitzer_has_avm] #[potm2208a, weic2403c, hubble_has_avm, noao_m74mortfieldw]
+carina_moore = {
+    "url": "http://www.worldwidetelescope.org/wwtweb/ShowImage.aspx?reverseparity=False&scale=0.980497&name=carina_cliffs_moor.jpg&imageurl=https://nova.astrometry.net/wwt_image/39776336&credits=Astrometry.net+User+(All+Rights+Reserved)&creditsUrl=&ra=159.339807&dec=-58.650131&x=640.5&y=478.5&rotation=145.06&thumb=https://nova.astrometry.net/wwt_image/39776338",
+    "image_name": "carina_cliffs_moor.jpg",
+    "name": "Carina Cliffs (Moore)",
+    "outdir": "carina_cliffs_moore",
+}
+
+carina_wiki = {
+    "image_name": "NGC_3324_Nebulosa_Gabriela_Mistral_en_Paleta_Hubble_(SHO).jpg",
+    "url": "http://www.worldwidetelescope.org/wwtweb/ShowImage.aspx?reverseparity=False&scale=0.865935&name=NGC_3324_Nebulosa_Gabriela_Mistral_en_Paleta_Hubble_(SHO).jpg&imageurl=https://nova.astrometry.net/wwt_image/39776550&credits=Astrometry.net+User+(All+Rights+Reserved)&creditsUrl=&ra=159.642263&dec=-58.772945&x=3028.0&y=1587.0&rotation=163.86&thumb=https://nova.astrometry.net/wwt_image/39776553",
+    "name": "Carina Cliffs (Wiki)",
+    "outdir": "carina_cliffs_wiki",
+}
+
+all_sources = [carina_wiki] #[spitzer_has_avm] #[potm2208a, weic2403c, hubble_has_avm, noao_m74mortfieldw]
 
 if True: 
     for image_def in all_sources:

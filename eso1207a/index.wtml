@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Folder Browseable="True" Group="Explorer" Name="NGC 3324" Searchable="True">
+  <Place Angle="0" AngularSize="0" Constellation="CAR" DataSetType="Sky" Dec="-58.664455644717385" Magnitude="0" Name="NGC 3324" Opacity="100" RA="10.63276661999588" Rotation="0" Thumbnail="https://raw.githubusercontent.com/johnarban/data_repo/main/eso1207a/thumb.jpg" ZoomLevel="4.492757867519987">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.5415430317663499" BaseTileLevel="0" BottomsUp="False" CenterX="159.320327" CenterY="-58.629867" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="NGC 3324" OffsetX="-0.08904101338786836" OffsetY="-0.03459108583626769" Projection="Tan" QuadTreeMap="" Rotation="0.09277899186999046" Sparse="True" StockSet="False" TileLevels="5" Url="https://raw.githubusercontent.com/johnarban/data_repo/main/eso1207a/{1}/{3}/{3}_{2}.png" WidthFactor="2">
+        <Credits>ESO</Credits>
+        <CreditsUrl>https://www.eso.org/public/images/eso1207a/</CreditsUrl>
+        <Description>The Wide Field Imager on the MPG/ESO 2.2-metre telescope at the La Silla Observatory has imaged a region of star formation called NGC 3324. The intense radiation from several of NGC 3324's massive, blue-white stars has carved out a cavity in the surrounding gas and dust. The ultraviolet radiation from these young hot stars also cause the gas cloud to glow in rich colours.</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/data_repo/main/eso1207a/thumb.jpg</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>

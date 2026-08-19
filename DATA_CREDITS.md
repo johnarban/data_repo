@@ -37,6 +37,16 @@
 - `luminosity.png`, `grayscale_2k_python.png`
   - DSS cutouts from Rubin first look image area
 
+
+
+- eso1207a[tif, jpg] - ESO press release https://www.eso.org/public/images/eso1207a/
+- `carina_cliffs_more.jpg`
+  - https://science.nasa.gov/asset/hubble/ground-based-image-of-ngc-3324-in-the-carina-nebula-complex/
+  
+- `NGC_3324_Nebulosa_Gabriela_Mistral_en_Paleta_Hubble_(SHO).jpg`
+  - https://commons.wikimedia.org/wiki/File:NGC_3324_Nebulosa_Gabriela_Mistral_en_Paleta_Hubble_(SHO).jpg
+    - license: share with attribution
+  
 ## FITS files
 
 - `skyvrho.fits`
