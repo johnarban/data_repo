@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Folder Browseable="True" Group="Explorer" Name="Carina Cliffs (Wiki)" Searchable="True">
+  <Place Angle="0" AngularSize="0" Constellation="CAR" DataSetType="Sky" Dec="-58.71146183668437" Magnitude="0" Name="Carina Cliffs (Wiki)" Opacity="100" RA="10.666540034125067" Rotation="0" Thumbnail="thumb.jpg" ZoomLevel="7.93210892249985">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="1.9704831999999628" BaseTileLevel="0" BottomsUp="False" CenterX="159.642263" CenterY="-58.772945" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Carina Cliffs (Wiki)" OffsetX="-0.19447456874999633" OffsetY="0.007095856249999866" Projection="Tan" QuadTreeMap="" Rotation="-16.140000000000246" Sparse="True" StockSet="False" TileLevels="5" Url="{1}/{3}/{3}_{2}.png" WidthFactor="2">
+        <Credits>Wikimedia</Credits>
+        <CreditsUrl>https://https://commons.wikimedia.org/wiki/File:NGC_3324_Nebulosa_Gabriela_Mistral_en_Paleta_Hubble_(SHO).jpg</CreditsUrl>
+        <Description>Astrophotography of the NGC 3324 nebula in narrowband technique and Hubble palette (SHO).
+The emission nebula NGC 3324, known as the Gabriela Mistral Nebula, is located about 7,600 light years away, in the southern constellation of Carina. The image was acquired with a Newtonian telescope, dedicated cooled mono astronomical camera, using narrow band filters (Sii, Ha, Oiii), all mounted on a motorized equatorial mount. Multiple hours of information were acquired for each filter in individual 3-min shots, and 3 mono master stacks were obtained which, when mixed, obtained the color image. This image is the result of selectively filtering the entire visible spectrum of light except the spectral lines of the most abundant elements in emission nebulae, such as doubly ionized Sulfur (Sii), alpha Hydrogen (Ha) and triply ionized oxygen (Oiii). This allows these images to be taken from cities with as much light pollution as Córdoba. The Hubble palette is known as SHO due to the mapping of the Sii signal as red (R), Ha as green (G), and Oiii as blue (B).
+
+Date and place of acquisition: April 2020, Córdoba Capital, Córdoba, Argentina. Main equipment: camera: ZWO ASI 1600 mm-pro, telescope: SW Explorer 200pds+SW Coma corrector, equatorial mount: SW EQ6-R-Pro, electronic focuser: ZWO EAF, filter wheel: ZWO 7x2" EFW, Optolong Narrowband Filters. Guiding equipment: guidescope: starguider 60/240 mm, guide camera: ZWO ASI 120mm mini. Total Integration Time: 16.5 h: 160x180” lights Ha, 85x180” lights Oiii, 85x180” lights Sii. Calibration images: 100 darks, 100 dark-flats, 100 flats per filter.
+
+Softwares used: SharpCap 3.2, SGP 3.1, PHD2, Pixinsight 1.8.8 and Photoshop.
+        </Description>
+        <ThumbnailUrl>thumb.jpg</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Folder Browseable="True" Group="Explorer" Name="Carina Cliffs (Moore)" Searchable="True">
+  <Place Angle="0" AngularSize="0" Constellation="CAR" DataSetType="Sky" Dec="-58.64990773170287" Magnitude="0" Name="Carina Cliffs (Moore)" Opacity="100" RA="10.622633812053595" Rotation="0" Thumbnail="thumb.jpg" ZoomLevel="2.6613956903332414">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.5577938488888696" BaseTileLevel="0" BottomsUp="False" CenterX="159.339807" CenterY="-58.650131" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Carina Cliffs (Moore)" OffsetY="0.00027236027777776837" Projection="Tan" QuadTreeMap="" Rotation="-34.9400000000004" Sparse="True" StockSet="False" TileLevels="3" Url="{1}/{3}/{3}_{2}.png" WidthFactor="2">
+        <ThumbnailUrl>thumb.jpg</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>
