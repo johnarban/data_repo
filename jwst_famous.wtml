@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Folder Browseable="True" Group="Explorer" Name="JWST" Searchable="True">
+  <Folder Browseable="True" Group="Explorer" Name="JWST" Searchable="True">
+    <Place Angle="0" AngularSize="0" Constellation="SER2" DataSetType="Sky" Dec="-13.851806247556162" Magnitude="0" Name="Webb Takes a Stunning, Star-Filled Portrait of the Pillars of Creation" Opacity="100" RA="18.315349328155378" Rotation="0" Thumbnail="https://data1.wwtassets.org/packages/2022/10_jwst/weic2216b/thumb.jpg" ZoomLevel="1.2403261636227758">
+      <ForegroundImageSet>
+        <ImageSet BandPass="Visible" BaseDegreesPerTile="0.13656208790665247" BaseTileLevel="0" BottomsUp="False" CenterX="274.72992785796" CenterY="-13.85173905846" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Webb Takes a Stunning, Star-Filled Portrait of the Pillars of Creation" OffsetX="-0.0003056919433917801" OffsetY="-5.356452028979779e-05" Projection="Tan" QuadTreeMap="" Rotation="2.5646004209999447" Sparse="True" StockSet="False" TileLevels="6" Url="https://data1.wwtassets.org/packages/2022/10_jwst/weic2216b/{1}/{3}/{3}_{2}.png" WidthFactor="2" Xcxstatus="in:642761e3975014bc743f1599">
+          <Credits>NASA, ESA, CSA, STScI; J. DePasquale, A. Koekemoer, A. Pagan (STScI).</Credits>
+          <CreditsUrl>https://esawebb.org/images/weic2216b/</CreditsUrl>
+          <Description>The Pillars of Creation are set off in a kaleidoscope of colour in the NASA/ESA/CSA James Webb Space Telescope’s near-infrared-light view. The pillars look like arches and spires rising out of a desert landscape, but are filled with semi-transparent gas and dust, and ever changing. This is a region where young stars are forming – or have barely burst from their dusty cocoons as they continue to form. Protostars are the scene-stealers in this Near-Infrared Camera (NIRCam) image. These are the bright red orbs that sometimes appear with eight diffraction spikes. When knots with sufficient mass form within the pillars, they begin to collapse under their own gravity, slowly heat up, and eventually begin shining brightly. Along the edges of the pillars are wavy lines that look like lava. These are ejections from stars that are still forming. Young stars periodically shoot out jets that can interact within clouds of material, like these thick pillars of gas and dust. This sometimes also results in bow shocks, which can form wavy patterns like a boat does as it moves through water. These young stars are estimated to be only a few hundred thousand years old, and will continue to form for millions of years. Although it may appear that near-infrared light has allowed Webb to “pierce through” the background to reveal great cosmic distances beyond the pillars, the interstellar medium stands in the way, like a drawn curtain. This is also the reason why there are no distant galaxies in this view. This translucent layer of gas blocks our view of the deeper universe. Plus, dust is lit up by the collective light from the packed “party” of stars that have burst free from the pillars. It’s like standing in a well-lit room looking out a window – the interior light reflects on the pane, obscuring the scene outside and, in turn, illuminating the activity at the party inside. Webb’s new view of the Pillars of Creation will help researchers revamp models of star formation. By identifying far more precise star populations, along with the quantities of gas and dust in the region, they will begin to build a clearer understanding of how stars form and burst out of these clouds over millions of years. The Pillars of Creation is a small region within the vast Eagle Nebula, which lies 6,500 light-years away. Webb’s NIRCam was built by a team at the University of Arizona and Lockheed Martin’s Advanced Technology Center. [Image Description: This vertical image has layers of semi-opaque rusty red colored gas and dust that starts at the bottom left and goes toward the top right. There are three prominent pillars rising toward the top right. The left pillar is the largest and widest. The peaks of the second and third pillars are set off in darker shades of brown and have red outlines.]</Description>
+          <ThumbnailUrl>https://data1.wwtassets.org/packages/2022/10_jwst/weic2216b/thumb.jpg</ThumbnailUrl>
+        </ImageSet>
+      </ForegroundImageSet>
+    </Place>
+    <Place Angle="0" AngularSize="0" Constellation="CAR" DataSetType="Sky" Dec="-58.620167596399455" Magnitude="0" Name="JWST Carina NIRCam" Opacity="100" RA="10.614202486602357" Rotation="0" Thumbnail="http://data1.wwtassets.org/packages/2022/07_jwst/carina_nircam/thumb.jpg" ZoomLevel="0.7175138317174115">
+      <ForegroundImageSet>
+        <ImageSet BandPass="Visible" BaseDegreesPerTile="0.13653881984592092" BaseTileLevel="0" BottomsUp="False" CenterX="159.21261854583" CenterY="-58.62001801087" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="JWST Carina NIRCam" OffsetX="-9.676683405186081e-05" OffsetY="0.0002460841694251934" Projection="Tan" QuadTreeMap="" Rotation="102.98491848225136" Sparse="True" StockSet="False" TileLevels="6" Url="http://data1.wwtassets.org/packages/2022/07_jwst/carina_nircam/{1}/{3}/{3}_{2}.png" WidthFactor="2" Xastropix_ids="stsci|2022-031a" Xcxstatus="in:642761e7975014bc743f15a1">
+          <Credits>NASA, ESA, CSA, STScI, Webb ERO Production Team</Credits>
+          <CreditsUrl>https://webbtelescope.org/contents/news-releases/2022/news-2022-031</CreditsUrl>
+          <Description>What looks much like craggy mountains on a moonlit evening is actually the edge of a nearby, young, star-forming region NGC 3324 in the Carina Nebula. Captured in infrared light by the Near-Infrared Camera (NIRCam) on NASA’s James Webb Space Telescope, this image reveals previously obscured areas of star birth.
+Called the Cosmic Cliffs, the region is actually the edge of a gigantic, gaseous cavity within NGC 3324, roughly 7,600 light-years away. The cavernous area has been carved from the nebula by the intense ultraviolet radiation and stellar winds from extremely massive, hot, young stars located in the center of the bubble, above the area shown in this image. The high-energy radiation from these stars is sculpting the nebula’s wall by slowly eroding it away.
+NIRCam – with its crisp resolution and unparalleled sensitivity – unveils hundreds of previously hidden stars, and even numerous background galaxies. Several prominent features in this image are described below.
+•	The “steam” that appears to rise from the celestial “mountains” is actually hot, ionized gas and hot dust streaming away from the nebula due to intense, ultraviolet radiation.
+•	Dramatic pillars rise above the glowing wall of gas, resisting the blistering ultraviolet radiation from the young stars.
+•	Bubbles and cavities are being blown by the intense radiation and stellar winds of newborn stars.
+•	Protostellar jets and outflows, which appear in gold, shoot from dust-enshrouded, nascent stars.
+•	A “blow-out” erupts at the top-center of the ridge, spewing gas and dust into the interstellar medium.
+•	An unusual “arch” appears, looking like a bent-over cylinder.
+This period of very early star formation is difficult to capture because, for an individual star, it lasts only about 50,000 to 100,000 years – but Webb’s extreme sensitivity and exquisite spatial resolution have chronicled this rare event.
+Located roughly 7,600 light-years away, NGC 3324 was first catalogued by James Dunlop in 1826. Visible from the Southern Hemisphere, it is located at the northwest corner of the Carina Nebula (NGC 3372), which resides in the constellation Carina. The Carina Nebula is home to the Keyhole Nebula and the active, unstable supergiant star called Eta Carinae.
+NIRCam was built by a team at the University of Arizona and Lockheed Martin’s Advanced Technology Center.</Description>
+          <ThumbnailUrl>http://data1.wwtassets.org/packages/2022/07_jwst/carina_nircam/thumb.jpg</ThumbnailUrl>
+        </ImageSet>
+      </ForegroundImageSet>
+    </Place>
+    <Place Angle="0" AngularSize="0" Constellation="VOL" DataSetType="Sky" Dec="-73.45389956415659" Magnitude="0" Name="JWST SMACS 0723" Opacity="100" RA="7.388518370448916" Rotation="0" Thumbnail="http://data1.wwtassets.org/packages/2022/07_jwst/smacs0723/thumb.jpg" ZoomLevel="0.39337455578028513">
+      <ForegroundImageSet>
+        <ImageSet BandPass="Visible" BaseDegreesPerTile="0.06824517526732732" BaseTileLevel="0" BottomsUp="False" CenterX="110.785677941" CenterY="-73.4497732804" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Webb Delivers Deepest Infrared Image of Universe Yet: SMACS 0723" OffsetX="-0.0074597408661543655" OffsetY="-0.010255996337093122" Projection="Tan" QuadTreeMap="" Rotation="-34.968546008628586" Sparse="True" StockSet="False" TileLevels="5" Url="http://data1.wwtassets.org/packages/2022/07_jwst/smacs0723/{1}/{3}/{3}_{2}.png" WidthFactor="2" Xastropix_ids="stsci|2022-035a" Xcxstatus="in:642761ea975014bc743f15a7">
+          <Credits>NASA, ESA, CSA, STScI, Webb ERO Production Team</Credits>
+          <CreditsUrl>https://webbtelescope.org/contents/news-releases/2022/news-2022-035</CreditsUrl>
+          <ThumbnailUrl>http://data1.wwtassets.org/packages/2022/07_jwst/smacs0723/thumb.jpg</ThumbnailUrl>
+        </ImageSet>
+      </ForegroundImageSet>
+    </Place>
+    <Place Angle="0" AngularSize="0" Constellation="PEG" DataSetType="Sky" Dec="33.9621954626131" Magnitude="0" Name="JWST Stephan's Quintet (NIRCam and MIRI)" Opacity="100" RA="22.6001036467436" Rotation="0" Thumbnail="http://data1.wwtassets.org/packages/2022/07_jwst/weic2208a/thumb.jpg" ZoomLevel="1.031446312671409">
+      <ForegroundImageSet>
+        <ImageSet BandPass="Visible" BaseDegreesPerTile="0.13656329708830614" BaseTileLevel="0" BottomsUp="False" CenterX="338.957209422" CenterY="33.9614640787" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="JWST Stephan's Quintet (NIRCam and MIRI)" OffsetX="-0.0165777055597548" OffsetY="0.029078594982448" Projection="Tan" QuadTreeMap="" Rotation="61.94540334829502" Sparse="True" StockSet="False" TileLevels="6" Url="http://data1.wwtassets.org/packages/2022/07_jwst/weic2208a/{1}/{3}/{3}_{2}.png" WidthFactor="2" Xastropix_ids="stsci|2022-034a" Xcxstatus="in:642761ea975014bc743f15a5">
+          <Credits>NASA, ESA, CSA, STScI, Webb ERO Production Team</Credits>
+          <CreditsUrl>https://webbtelescope.org/contents/news-releases/2022/news-2022-034</CreditsUrl>
+          <ThumbnailUrl>http://data1.wwtassets.org/packages/2022/07_jwst/weic2208a/thumb.jpg</ThumbnailUrl>
+        </ImageSet>
+      </ForegroundImageSet>
+    </Place>
+  </Folder>
+</Folder>
