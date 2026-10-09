@@ -1,41 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Folder Browseable="True" Group="Explorer" Name="Hubble" Searchable="True">
-  <Folder Browseable="True" Group="Explorer" Name="Hubble" Searchable="True">
-    <Place Angle="0" AngularSize="1" Classification="Nebula" Constellation="SER2" DataSetType="Sky" Dec="-13.8311111111111" Magnitude="0" Name="Pillars of Creation in a Star-Forming Region (Gas Pillars in M16 - Eagle Nebula)" Opacity="100" RA="18.3141666666667" Rotation="0" ZoomLevel="2">
-      <ForegroundImageSet>
-        <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0564827275663313" BaseTileLevel="0" BottomsUp="False" CenterX="274.710260073837" CenterY="-13.8301471408532" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Pillars of Creation in a Star-Forming Region (Gas Pillars in M16 - Eagle Nebula)" Projection="Tan" QuadTreeMap="0123" Rotation="-42.2693731582635" Sparse="True" StockSet="False" TileLevels="3" Url="http://r{S:2}.ortho.tiles.virtualearth.net/tiles/wsa0000003302{Q}?g=138" WidthFactor="2" Xastropix_ids="stsci|1995-44a" Xcxstatus="queue:hubble">
-          <Credits>Credit: NASA, ESA, STScI, J. Hester and P. Scowen (Arizona State University)</Credits>
-          <CreditsUrl>http://hubblesite.org/contents/news-releases/1995/news-1995-44.html</CreditsUrl>
-          <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=206860488</ThumbnailUrl>
-        </ImageSet>
-      </ForegroundImageSet>
-    </Place>
-    <Place Angle="0" AngularSize="0" Constellation="FOR" DataSetType="Sky" Dec="-27.79145686904519" Magnitude="0" Name="Hubble Ultra Deep Field" Opacity="100" RA="3.544144396191027" Rotation="0" Thumbnail="http://data1.wwtassets.org/packages/2022/12_jwst/hudf/thumb.jpg" ZoomLevel="0.5268355847197472">
-      <ForegroundImageSet>
-        <ImageSet BandPass="Visible" BaseDegreesPerTile="0.06824536859620761" BaseTileLevel="0" BottomsUp="False" CenterX="53.1621659428654" CenterY="-27.7914568690452" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Hubble Ultra Deep Field" Projection="Tan" QuadTreeMap="" Rotation="-46.49090886189481" Sparse="False" StockSet="False" TileLevels="5" Url="http://data1.wwtassets.org/packages/2022/12_jwst/hudf/{1}/{3}/{3}_{2}.png" WidthFactor="2" Xastropix_ids="esahubble|heic0611b" Xcxstatus="in:6564c45cf864172823763c19">
-          <Credits>NASA, ESA, and S. Beckwith (STScI) and the HUDF Team</Credits>
-          <CreditsUrl>https://esahubble.org/images/heic0611b/</CreditsUrl>
-          <ThumbnailUrl>http://data1.wwtassets.org/packages/2022/12_jwst/hudf/thumb.jpg</ThumbnailUrl>
-        </ImageSet>
-      </ForegroundImageSet>
-    </Place>
-    <Place Angle="0" AngularSize="1" Classification="Nebula" Constellation="ORI" DataSetType="Sky" Dec="-5.40555555555556" Magnitude="0" Name="Hubble Probes the Great Orion Nebula" Opacity="100" RA="5.58833333333333" Rotation="0" ZoomLevel="3.97833333333333">
-      <ForegroundImageSet>
-        <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0813707558539556" BaseTileLevel="0" BottomsUp="False" CenterX="83.8268692" CenterY="-5.4055466" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Hubble Probes the Great Orion Nebula" Projection="Tan" QuadTreeMap="0123" Rotation="75.4310456965389" Sparse="True" StockSet="False" TileLevels="5" Url="http://r{S:2}.ortho.tiles.virtualearth.net/tiles/wsa0000000302{Q}?g=138" WidthFactor="2" Xastropix_ids="stsci|1994-10a" Xcxstatus="queue:hubble">
-          <Credits>Credit: C.R. O'Dell/ Rice University NASA</Credits>
-          <CreditsUrl>http://hubblesite.org/contents/news-releases/1994/news-1994-10.html</CreditsUrl>
-          <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=1556539595</ThumbnailUrl>
-        </ImageSet>
-      </ForegroundImageSet>
-    </Place>
-    <Place Angle="0" AngularSize="1" Classification="SupernovaRemnant" Constellation="TAU" DataSetType="Sky" Dec="22.0166666666667" Magnitude="0" Name="Giant Hubble Mosaic of the Crab Nebula" Opacity="100" RA="5.57555555555555" Rotation="0" ZoomLevel="1">
-      <ForegroundImageSet>
-        <ImageSet BandPass="Visible" BaseDegreesPerTile="0.113275505484975" BaseTileLevel="0" BottomsUp="False" CenterX="83.6351229267829" CenterY="22.0157690826831" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Giant Hubble Mosaic of the Crab Nebula" Projection="Tan" QuadTreeMap="0123" Rotation="0.0135016264010856" Sparse="True" StockSet="False" TileLevels="4" Url="http://r{S:1}.ortho.tiles.virtualearth.net/tiles/wsa0000001321{Q}?g=138" WidthFactor="2" Xastropix_ids="stsci|2005-37a" Xcxstatus="in:66737b0c643c1aaca06dfa41">
-          <Credits>Credit: NASA, ESA, J. Hester and A. Loll (Arizona State University)</Credits>
-          <CreditsUrl>http://hubblesite.org/contents/news-releases/2005/news-2005-37.html</CreditsUrl>
-          <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=314237335</ThumbnailUrl>
-        </ImageSet>
-      </ForegroundImageSet>
-    </Place>
-  </Folder>
+  <Place Angle="0" AngularSize="1" Classification="Nebula" Constellation="SER2" DataSetType="Sky" Dec="-13.8311111111111" Magnitude="0" Name="Pillars of Creation in a Star-Forming Region (Gas Pillars in M16 - Eagle Nebula)" Opacity="100" RA="18.3141666666667" Rotation="0" ZoomLevel="2">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0564827275663313" BaseTileLevel="0" BottomsUp="False" CenterX="274.710260073837" CenterY="-13.8301471408532" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Pillars of Creation in a Star-Forming Region (Gas Pillars in M16 - Eagle Nebula)" Projection="Tan" QuadTreeMap="0123" Rotation="-42.2693731582635" Sparse="True" StockSet="False" TileLevels="3" Url="http://r{S:2}.ortho.tiles.virtualearth.net/tiles/wsa0000003302{Q}?g=138" WidthFactor="2" Xastropix_ids="stsci|1995-44a" Xcxstatus="queue:hubble">
+        <Credits>Credit: NASA, ESA, STScI, J. Hester and P. Scowen (Arizona State University)</Credits>
+        <CreditsUrl>http://hubblesite.org/contents/news-releases/1995/news-1995-44.html</CreditsUrl>
+        <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=206860488</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" Constellation="FOR" DataSetType="Sky" Dec="-27.79145686904519" Magnitude="0" Name="Hubble Ultra Deep Field" Opacity="100" RA="3.544144396191027" Rotation="0" Thumbnail="http://data1.wwtassets.org/packages/2022/12_jwst/hudf/thumb.jpg" ZoomLevel="0.5268355847197472">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.06824536859620761" BaseTileLevel="0" BottomsUp="False" CenterX="53.1621659428654" CenterY="-27.7914568690452" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Hubble Ultra Deep Field" Projection="Tan" QuadTreeMap="" Rotation="-46.49090886189481" Sparse="False" StockSet="False" TileLevels="5" Url="http://data1.wwtassets.org/packages/2022/12_jwst/hudf/{1}/{3}/{3}_{2}.png" WidthFactor="2" Xastropix_ids="esahubble|heic0611b" Xcxstatus="in:6564c45cf864172823763c19">
+        <Credits>NASA, ESA, and S. Beckwith (STScI) and the HUDF Team</Credits>
+        <CreditsUrl>https://esahubble.org/images/heic0611b/</CreditsUrl>
+        <ThumbnailUrl>http://data1.wwtassets.org/packages/2022/12_jwst/hudf/thumb.jpg</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="1" Classification="Nebula" Constellation="ORI" DataSetType="Sky" Dec="-5.40555555555556" Magnitude="0" Name="Hubble Probes the Great Orion Nebula" Opacity="100" RA="5.58833333333333" Rotation="0" ZoomLevel="3.97833333333333">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0813707558539556" BaseTileLevel="0" BottomsUp="False" CenterX="83.8268692" CenterY="-5.4055466" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Hubble Probes the Great Orion Nebula" Projection="Tan" QuadTreeMap="0123" Rotation="75.4310456965389" Sparse="True" StockSet="False" TileLevels="5" Url="http://r{S:2}.ortho.tiles.virtualearth.net/tiles/wsa0000000302{Q}?g=138" WidthFactor="2" Xastropix_ids="stsci|1994-10a" Xcxstatus="queue:hubble">
+        <Credits>Credit: C.R. O'Dell/ Rice University NASA</Credits>
+        <CreditsUrl>http://hubblesite.org/contents/news-releases/1994/news-1994-10.html</CreditsUrl>
+        <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=1556539595</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="1" Classification="SupernovaRemnant" Constellation="TAU" DataSetType="Sky" Dec="22.0166666666667" Magnitude="0" Name="Giant Hubble Mosaic of the Crab Nebula" Opacity="100" RA="5.57555555555555" Rotation="0" ZoomLevel="1">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.113275505484975" BaseTileLevel="0" BottomsUp="False" CenterX="83.6351229267829" CenterY="22.0157690826831" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Giant Hubble Mosaic of the Crab Nebula" Projection="Tan" QuadTreeMap="0123" Rotation="0.0135016264010856" Sparse="True" StockSet="False" TileLevels="4" Url="http://r{S:1}.ortho.tiles.virtualearth.net/tiles/wsa0000001321{Q}?g=138" WidthFactor="2" Xastropix_ids="stsci|2005-37a" Xcxstatus="in:66737b0c643c1aaca06dfa41">
+        <Credits>Credit: NASA, ESA, J. Hester and A. Loll (Arizona State University)</Credits>
+        <CreditsUrl>http://hubblesite.org/contents/news-releases/2005/news-2005-37.html</CreditsUrl>
+        <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=314237335</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
 </Folder>
